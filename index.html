@@ -1,0 +1,1784 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SunTree Bimbel — Belajar Bersama, Meraih Prestasi Bersama!</title>
+<meta name="description" content="SunTree Bimbel — bimbingan belajar TK, SD, SMP, SMA di Lubang Buaya, Cipayung, Jakarta Timur. Kelas kecil, pengajar berpengalaman, mulai dari Rp95.000/bulan.">
+<meta name="keywords" content="bimbel cipayung, les privat jakarta timur, bimbingan belajar lubang buaya, les sd smp sma cipayung, suntree bimbel">
+<link rel="canonical" href="https://suntreebimbel.netlify.app/">
+
+<!-- Open Graph (tampilan link saat dibagikan di WhatsApp/Facebook) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="SunTree Bimbel — Belajar Bersama, Meraih Prestasi Bersama!">
+<meta property="og:description" content="Bimbingan belajar TK, SD, SMP, SMA di Lubang Buaya, Cipayung, Jakarta Timur. Kelas kecil, pengajar berpengalaman, mulai dari Rp95.000/bulan.">
+<meta property="og:image" content="https://suntreebimbel.netlify.app/assets/pamflet-promo.png">
+<meta property="og:url" content="https://suntreebimbel.netlify.app/">
+<meta property="og:locale" content="id_ID">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal-deepest:#0A2E2C;
+    --teal-dark:#0F3D3A;
+    --teal-primary:#146A5E;
+    --teal-bright:#1E9C87;
+    --teal-mist:#E4F1EC;
+    --gold:#E8A93B;
+    --gold-soft:#F6D9A0;
+    --cream:#F7F8F3;
+    --paper:#FFFFFF;
+    --ink:#0E2C2A;
+    --ink-soft:#4B6763;
+    --line: rgba(14,44,42,0.10);
+    --shadow: 0 20px 40px -18px rgba(10,46,44,0.35);
+    --radius: 18px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  section[id], div[id]{scroll-margin-top:110px;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,h4{
+    font-family:'Poppins', sans-serif;
+    margin:0;
+    line-height:1.15;
+    color:var(--teal-deepest);
+  }
+  p{margin:0;}
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  ul{margin:0; padding:0; list-style:none;}
+  button{font-family:inherit; cursor:pointer;}
+
+  .wrap{
+    max-width:1180px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-family:'Inter',sans-serif;
+    font-weight:700;
+    font-size:12.5px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--teal-bright);
+  }
+  .eyebrow::before{
+    content:'';
+    width:22px; height:2px;
+    background:var(--gold);
+    display:inline-block;
+  }
+  .section{
+    padding:96px 0;
+  }
+  .section-head{
+    max-width:620px;
+    margin-bottom:48px;
+  }
+  .section-head h2{
+    font-size:clamp(28px,4vw,38px);
+    font-weight:800;
+    margin-top:10px;
+  }
+  .section-head p{
+    margin-top:14px;
+    color:var(--ink-soft);
+    font-size:16.5px;
+  }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:15px 28px;
+    border-radius:999px;
+    font-weight:700;
+    font-size:15px;
+    border:none;
+    transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+    white-space:nowrap;
+  }
+  .btn-gold{
+    background:var(--gold);
+    color:var(--teal-deepest);
+    box-shadow:0 14px 26px -12px rgba(232,169,59,0.65);
+  }
+  .btn-gold:hover{transform:translateY(-2px); box-shadow:0 18px 30px -12px rgba(232,169,59,0.75);}
+  .btn-outline{
+    background:transparent;
+    border:1.5px solid rgba(255,255,255,0.5);
+    color:#fff;
+  }
+  .btn-outline:hover{background:rgba(255,255,255,0.12); transform:translateY(-2px);}
+  .btn-line{
+    background:transparent;
+    border:1.5px solid var(--teal-primary);
+    color:var(--teal-primary);
+  }
+  .btn-line:hover{background:var(--teal-mist); transform:translateY(-2px);}
+
+  /* ===== TOP BAR ===== */
+  .topbar{
+    background:var(--teal-deepest);
+    color:rgba(255,255,255,0.82);
+    font-size:12.5px;
+    padding:8px 0;
+  }
+  .topbar .wrap{
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .topbar-left{display:flex; align-items:center; gap:22px;}
+  .topbar-left a{display:flex; align-items:center; gap:7px; color:rgba(255,255,255,0.82);}
+  .topbar-left svg{width:13px; height:13px; color:var(--gold-soft); flex-shrink:0;}
+  .topbar-social{display:flex; align-items:center; gap:12px;}
+  .topbar-social a{
+    width:26px; height:26px; border-radius:50%;
+    background:rgba(255,255,255,0.08);
+    display:flex; align-items:center; justify-content:center;
+    color:#fff;
+  }
+  .topbar-social svg{width:13px; height:13px;}
+  @media (max-width:760px){
+    .topbar-left span.tb-address{display:none;}
+  }
+  @media (max-width:560px){
+    .topbar{display:none;}
+  }
+
+  /* ===== HEADER ===== */
+  header{
+    position:sticky; top:0; z-index:100;
+    background:#fff;
+    box-shadow:0 1px 0 var(--line);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:12px 0;
+  }
+  .brand{display:flex; align-items:center; gap:12px;}
+  .brand-mark{
+    width:46px; height:46px; border-radius:50%;
+    background:radial-gradient(circle at 32% 28%, #2ab19c, var(--teal-primary) 60%, var(--teal-deepest));
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:inset 0 0 0 2px rgba(232,169,59,0.55);
+    flex-shrink:0;
+  }
+  .brand-mark svg{width:24px; height:24px;}
+  .brand-text{display:flex; flex-direction:column; line-height:1.1;}
+  .brand-text b{font-family:'Poppins',sans-serif; font-weight:800; font-size:17px; letter-spacing:.01em; color:var(--teal-deepest);}
+  .brand-text span{font-size:11px; font-weight:600; letter-spacing:.08em; color:var(--teal-bright); text-transform:uppercase;}
+
+  .nav-links{display:flex; align-items:center; gap:8px;}
+  .nav-plain-link{
+    font-weight:600; font-size:14.5px; color:var(--ink);
+    padding:10px 12px; border-radius:8px;
+  }
+  .nav-plain-link:hover{color:var(--teal-primary);}
+  .nav-item{position:relative;}
+  .nav-toggle-item{
+    display:flex; align-items:center; gap:6px;
+    background:none; border:none; font-family:inherit;
+    font-weight:600; font-size:14.5px; color:var(--ink);
+    padding:10px 12px; border-radius:8px;
+    cursor:pointer;
+  }
+  .nav-toggle-item:hover{color:var(--teal-primary);}
+  .nav-item .chev{width:14px; height:14px; transition:transform .2s ease;}
+  .nav-item.open .chev{transform:rotate(180deg);}
+  .dropdown-panel{
+    position:absolute; top:calc(100% + 6px); left:0;
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:14px;
+    box-shadow:var(--shadow);
+    padding:10px;
+    min-width:230px;
+    display:none;
+    z-index:60;
+  }
+  .nav-item.open .dropdown-panel{display:block;}
+  .dropdown-panel a{
+    display:block;
+    padding:10px 12px;
+    border-radius:8px;
+    font-size:14px; font-weight:500; color:var(--ink);
+  }
+  .dropdown-panel a:hover{background:var(--teal-mist); color:var(--teal-primary);}
+  .mega-panel{
+    min-width:520px;
+    grid-template-columns:repeat(2,1fr);
+    gap:4px 8px;
+  }
+  .nav-item.open .mega-panel{display:grid;}
+  .mega-panel a.mega-see-all{
+    grid-column:1/-1;
+    border-top:1px solid var(--line);
+    margin-top:6px; padding-top:12px;
+    font-weight:700; color:var(--teal-primary);
+  }
+  .nav-cta{display:flex; align-items:center; gap:14px;}
+  .nav-toggle{display:none; background:none; border:none; padding:6px;}
+  .nav-toggle span{display:block; width:24px; height:2.5px; background:var(--teal-deepest); margin:5px 0; border-radius:2px;}
+
+  /* ===== HERO ===== */
+  .hero{
+    position:relative;
+    overflow:hidden;
+    min-height:440px;
+    display:flex;
+    align-items:flex-end;
+    background:var(--teal-deepest);
+    color:#fff;
+    padding:120px 0 90px;
+  }
+  .hero-media{
+    position:absolute; inset:0; z-index:0;
+  }
+  .hero-media img, .hero-media video{
+    width:100%; height:100%; object-fit:cover; object-position:center top;
+  }
+  .hero-overlay{
+    position:absolute; inset:0; z-index:1;
+    background:linear-gradient(180deg, rgba(8,32,31,0.62) 0%, rgba(8,32,31,0.68) 45%, rgba(8,32,31,0.95) 100%);
+  }
+  .hero .wrap{
+    position:relative; z-index:2;
+  }
+  .hero-badge{
+    display:inline-block;
+    background:rgba(10,46,44,0.7);
+    border:1px solid rgba(255,255,255,0.3);
+    color:#fff;
+    font-size:12.5px; font-weight:700; letter-spacing:.03em;
+    padding:8px 16px;
+    border-radius:6px;
+    margin-bottom:18px;
+  }
+  .hero h1{
+    color:var(--gold-soft);
+    font-size:clamp(32px,5.5vw,52px);
+    font-weight:900;
+    letter-spacing:-.01em;
+    max-width:720px;
+    text-shadow:0 3px 16px rgba(0,0,0,0.6), 0 1px 4px rgba(0,0,0,0.7);
+  }
+  .hero h1 em{
+    font-style:normal;
+    color:#fff;
+  }
+
+  /* ===== WELCOME CARD (menjorok naik menutupi hero) ===== */
+  .welcome-wrap{margin-top:-64px; position:relative; z-index:3;}
+  .welcome-card{
+    background:#fff;
+    border-radius:22px 22px 0 0;
+    box-shadow:0 -6px 0 0 var(--gold) inset, var(--shadow);
+    padding:44px 44px 0;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:end;
+    overflow:hidden;
+  }
+  .welcome-copy{padding-bottom:44px;}
+  .welcome-copy h2{font-size:clamp(22px,2.8vw,28px); font-weight:800; margin-bottom:14px;}
+  .welcome-copy p{color:var(--ink-soft); font-size:15.5px; max-width:520px;}
+  .welcome-copy .hero-actions{display:flex; gap:14px; margin-top:26px; flex-wrap:wrap;}
+  .welcome-photo{
+    position:relative;
+    display:flex; justify-content:center;
+    height:100%;
+  }
+  .welcome-photo-inner{
+    position:relative;
+    width:100%; max-width:420px;
+    border-radius:16px 16px 0 0;
+    overflow:hidden;
+    aspect-ratio:4/3;
+    background:linear-gradient(160deg, var(--teal-primary), var(--teal-deepest));
+  }
+  .welcome-photo-inner::before{
+    content:'';
+    position:absolute; inset:0;
+    background:
+      radial-gradient(circle at 85% 15%, rgba(232,169,59,0.35), transparent 55%),
+      repeating-linear-gradient(135deg, rgba(255,255,255,0.05) 0 10px, transparent 10px 20px);
+  }
+  .welcome-photo-inner img{
+    width:100%; height:100%; object-fit:cover; object-position:75% 15%;
+    position:relative; z-index:1;
+    mix-blend-mode:normal;
+  }
+  .welcome-photo-tag{
+    position:absolute; left:14px; bottom:14px; z-index:2;
+    background:rgba(10,46,44,0.85);
+    border-left:3px solid var(--gold);
+    padding:8px 14px;
+    border-radius:4px;
+  }
+  .welcome-photo-tag b{display:block; color:#fff; font-size:13.5px; font-weight:700;}
+  .welcome-photo-tag span{color:var(--gold-soft); font-size:11px; font-weight:600;}
+  @media (max-width:760px){
+    .welcome-card{grid-template-columns:1fr; padding:32px 24px 0; gap:0;}
+    .welcome-photo{margin-top:24px;}
+    .welcome-photo-inner{max-width:100%;}
+  }
+
+  /* ===== VISI MISI MOTO ===== */
+  .vmm-grid{
+    margin-top:48px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+  }
+  .vmm-card{
+    background:var(--teal-mist);
+    border-radius:var(--radius);
+    padding:26px 24px;
+  }
+  .vmm-icon{
+    width:48px; height:48px; border-radius:12px;
+    background:linear-gradient(135deg, var(--teal-bright), var(--teal-primary));
+    display:flex; align-items:center; justify-content:center;
+    margin-bottom:14px;
+  }
+  .vmm-icon svg{width:22px; height:22px;}
+  .vmm-card h3{font-size:16px; font-weight:800; margin-bottom:8px; color:var(--teal-deepest);}
+  .vmm-card p{font-size:13.5px; color:var(--ink-soft); line-height:1.6;}
+  .vmm-card ul{display:flex; flex-direction:column; gap:8px;}
+  .vmm-card ul li{
+    font-size:13.5px; color:var(--ink-soft); line-height:1.5;
+    padding-left:16px; position:relative;
+  }
+  .vmm-card ul li::before{content:'•'; position:absolute; left:0; color:var(--teal-primary); font-weight:800;}
+  @media (max-width:760px){
+    .vmm-grid{grid-template-columns:1fr;}
+  }
+
+  /* ===== STATS ===== */
+  .stats-section{
+    background:#fff;
+    border-bottom:1px solid var(--line);
+    padding:40px 0 56px;
+    margin-top:-1px;
+  }
+  .stats-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+  }
+  .stat-box{
+    text-align:center;
+    padding:22px 16px;
+    border-right:1px solid var(--line);
+  }
+  .stat-box:last-child{border-right:none;}
+  .stat-icon{
+    width:52px; height:52px; border-radius:14px;
+    background:var(--teal-mist);
+    color:var(--teal-primary);
+    display:flex; align-items:center; justify-content:center;
+    margin:0 auto 14px;
+  }
+  .stat-icon svg{width:26px; height:26px;}
+  .stat-box b{
+    display:block; font-family:'Poppins',sans-serif; font-weight:800;
+    font-size:26px; color:var(--teal-deepest);
+  }
+  .stat-box span{font-size:13px; color:var(--ink-soft); font-weight:600;}
+  @media (max-width:760px){
+    .stats-grid{grid-template-columns:1fr; gap:4px;}
+    .stat-box{border-right:none; border-bottom:1px solid var(--line); padding:18px 12px;}
+    .stat-box:last-child{border-bottom:none;}
+    .hero-price-badge{position:static; margin-top:-30px; align-self:flex-start;}
+  }
+
+  /* ===== CTA BANNER ===== */
+  .cta-banner{
+    background:linear-gradient(100deg, var(--teal-primary), var(--teal-dark));
+    padding:34px 0;
+  }
+  .cta-banner-inner{
+    display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;
+  }
+  .cta-banner .eyebrow{color:var(--gold-soft);}
+  .cta-banner .eyebrow::before{background:var(--gold-soft);}
+  .cta-banner h3{
+    color:#fff; font-size:clamp(18px,2.4vw,24px); font-weight:700; margin-top:6px;
+  }
+  @media (max-width:640px){
+    .cta-banner-inner{flex-direction:column; align-items:flex-start;}
+  }
+
+  /* ===== ABOUT ===== */
+  .about{
+    display:grid;
+    grid-template-columns:0.9fr 1.1fr;
+    gap:64px;
+    align-items:center;
+  }
+  .about-visual{
+    position:relative;
+    background:var(--teal-mist);
+    border-radius:var(--radius);
+    padding:8px;
+  }
+  .about-visual img{border-radius:14px; width:100%;}
+  .about-badge{
+    position:absolute; bottom:-22px; left:-22px;
+    background:var(--paper);
+    border-radius:16px;
+    padding:16px 20px;
+    box-shadow:var(--shadow);
+    display:flex; align-items:center; gap:12px;
+  }
+  .about-badge b{font-family:'Poppins',sans-serif; font-size:22px; color:var(--teal-primary); font-weight:800;}
+  .about-badge span{font-size:12px; color:var(--ink-soft); display:block;}
+
+  .about-copy .eyebrow{color:var(--teal-bright);}
+  .about-copy h2{font-size:clamp(26px,3.4vw,34px); font-weight:800; margin-top:10px;}
+  .about-copy p{margin-top:16px; color:var(--ink-soft); font-size:16px;}
+  .about-list{margin-top:26px; display:flex; flex-direction:column; gap:14px;}
+  .about-list li{display:flex; gap:12px; align-items:flex-start; font-size:15px; font-weight:600;}
+  .about-list li svg{width:20px; height:20px; color:var(--teal-bright); flex-shrink:0; margin-top:2px;}
+
+  /* ===== PROGRAM CARDS ===== */
+  .program-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+  }
+  .program-card{
+    background:var(--paper);
+    border-radius:var(--radius);
+    padding:26px 22px;
+    border:1px solid var(--line);
+    position:relative;
+    display:flex; flex-direction:column; gap:12px;
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .program-card:hover{transform:translateY(-6px); box-shadow:var(--shadow);}
+  .program-num{
+    width:34px; height:34px; border-radius:10px;
+    background:var(--teal-deepest);
+    color:var(--gold-soft);
+    font-family:'Poppins',sans-serif; font-weight:800; font-size:14px;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .program-card h3{font-size:16.5px; font-weight:700; margin-top:2px;}
+  .program-jenjang{
+    display:inline-block;
+    font-size:11px; font-weight:700; letter-spacing:.04em;
+    color:var(--teal-primary);
+    background:var(--teal-mist);
+    padding:4px 10px; border-radius:999px;
+    width:fit-content;
+  }
+  .program-card ul{display:flex; flex-direction:column; gap:6px; margin-top:4px;}
+  .program-card ul li{
+    font-size:13.5px; color:var(--ink-soft);
+    display:flex; gap:8px;
+  }
+  .program-card ul li::before{content:'—'; color:var(--gold); flex-shrink:0;}
+  .program-price{
+    margin-top:auto; padding-top:14px; border-top:1px dashed var(--line);
+    display:flex; align-items:baseline; gap:6px;
+  }
+  .program-price b{font-family:'Poppins',sans-serif; font-size:19px; color:var(--teal-deepest); font-weight:800;}
+  .program-price span{font-size:12px; color:var(--ink-soft);}
+  .program-note{font-size:11px; color:var(--gold); font-weight:700; margin-top:-4px;}
+
+  /* ===== WHY GRID ===== */
+  .why-section{background:var(--teal-mist);}
+  .why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+  }
+  .why-card{
+    background:var(--paper);
+    border-radius:var(--radius);
+    padding:28px 24px;
+  }
+  .why-icon{
+    width:52px; height:52px; border-radius:14px;
+    background:linear-gradient(135deg, var(--teal-bright), var(--teal-primary));
+    display:flex; align-items:center; justify-content:center;
+    margin-bottom:16px;
+  }
+  .why-icon svg{width:26px; height:26px; color:#fff;}
+  .why-card h3{font-size:17px; font-weight:700;}
+  .why-card p{margin-top:8px; font-size:14px; color:var(--ink-soft);}
+
+  /* ===== MOMENT CARDS ===== */
+  .moment-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+  }
+  .moment-card{
+    border-radius:var(--radius);
+    overflow:hidden;
+    background:var(--paper);
+    border:1px solid var(--line);
+  }
+  .moment-photo{
+    aspect-ratio:4/3;
+    background:linear-gradient(135deg, var(--teal-primary), var(--teal-deepest));
+    display:flex; align-items:center; justify-content:center;
+    position:relative;
+  }
+  .moment-photo svg{width:44px; height:44px; color:rgba(255,255,255,0.85);}
+  .moment-tag{
+    position:absolute; bottom:12px; left:12px;
+    background:var(--gold);
+    color:var(--teal-deepest);
+    font-size:11.5px; font-weight:800;
+    padding:6px 14px; border-radius:999px;
+  }
+  .moment-body{padding:20px 22px;}
+  .moment-body p{font-size:14px; color:var(--ink-soft);}
+
+  /* ===== GALLERY ===== */
+  .gallery-section{background:var(--paper);}
+  .gallery-toolbar{
+    display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;
+    margin-bottom:24px;
+  }
+  .gallery-count{
+    font-size:13px; font-weight:700; color:var(--teal-primary);
+    background:var(--teal-mist); padding:6px 14px; border-radius:999px;
+  }
+  .gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:16px;
+  }
+  .gallery-item{
+    position:relative;
+    border-radius:14px;
+    overflow:hidden;
+    aspect-ratio:1/1;
+    background:var(--teal-mist);
+    border:1px solid var(--line);
+  }
+  .gallery-item img{width:100%; height:100%; object-fit:cover; display:block;}
+  .gallery-item .cap{
+    position:absolute; left:0; right:0; bottom:0;
+    padding:10px 12px 8px;
+    background:linear-gradient(0deg, rgba(10,46,44,0.82), transparent);
+    color:#fff; font-size:12px; font-weight:600;
+    opacity:0; transition:opacity .2s ease;
+  }
+  .gallery-item:hover .cap{opacity:1;}
+  .gallery-empty{
+    grid-column:1/-1;
+    text-align:center;
+    padding:48px 24px;
+    border:1.5px dashed var(--line);
+    border-radius:16px;
+    color:var(--ink-soft);
+    font-size:14px;
+  }
+  @media (max-width:960px){ .gallery-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:640px){ .gallery-grid{grid-template-columns:repeat(2,1fr); gap:10px;} }
+
+  /* ===== FAQ ===== */
+  .faq-section{background:var(--teal-mist);}
+  .faq-list{display:flex; flex-direction:column; gap:12px; max-width:760px;}
+  .faq-item{
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:18px 20px;
+  }
+  .faq-item summary{
+    cursor:pointer;
+    font-weight:700; font-size:15px; color:var(--teal-deepest);
+    list-style:none;
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{
+    content:'+';
+    font-size:20px; font-weight:400; color:var(--teal-primary); flex-shrink:0;
+    transition:transform .2s ease;
+  }
+  .faq-item[open] summary::after{content:'−';}
+  .faq-item p{margin-top:12px; font-size:14px; color:var(--ink-soft); line-height:1.6;}
+
+  /* ===== READ MORE ===== */
+  .rm-text{
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+  }
+  .rm-text.rm-expanded{
+    display:block;
+    -webkit-line-clamp:unset;
+    overflow:visible;
+  }
+  .rm-btn{
+    display:inline-block;
+    margin-top:6px;
+    background:none; border:none; padding:0;
+    font-size:12.5px; font-weight:700; color:var(--teal-primary);
+    cursor:pointer;
+  }
+  .rm-btn:hover{text-decoration:underline;}
+
+  /* ===== TUTOR ===== */
+  .tutor-section{background:var(--paper);}
+  .tutor-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+  }
+  .tutor-card{
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    overflow:hidden;
+    text-align:center;
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .tutor-card:hover{transform:translateY(-4px); box-shadow:var(--shadow);}
+  .tutor-photo{
+    aspect-ratio:1/1;
+    background:linear-gradient(135deg, var(--teal-primary), var(--teal-deepest));
+    display:flex; align-items:center; justify-content:center;
+    overflow:hidden;
+  }
+  .tutor-photo img{width:100%; height:100%; object-fit:cover;}
+  .tutor-photo svg{width:40px; height:40px; color:rgba(255,255,255,0.85);}
+  .tutor-body{padding:18px 16px;}
+  .tutor-body h3{font-size:15px; font-weight:700;}
+  .tutor-body .tutor-subject{
+    display:block; font-size:12px; font-weight:700; color:var(--teal-primary);
+    margin-top:4px;
+  }
+  .tutor-body p{font-size:13px; color:var(--ink-soft); margin-top:8px;}
+  @media (max-width:960px){ .tutor-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:640px){ .tutor-grid{grid-template-columns:1fr;} }
+
+  /* ===== ACHIEVEMENTS / PRESTASI & REVIEW ===== */
+  .achievements-section{background:var(--paper);}
+  .achv-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+  }
+  .achv-card{
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:26px 24px;
+    display:flex; flex-direction:column; gap:12px;
+    position:relative;
+  }
+  .achv-badge{
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:11px; font-weight:800; letter-spacing:.04em; text-transform:uppercase;
+    padding:5px 12px; border-radius:999px;
+    width:fit-content;
+  }
+  .achv-badge.prestasi{background:var(--teal-mist); color:var(--teal-primary);}
+  .achv-badge.review{background:#FDF3DF; color:#9A6C0D;}
+  .achv-card h3{font-size:16px; font-weight:700;}
+  .achv-card p{font-size:13.5px; color:var(--ink-soft);}
+  .achv-stars{display:flex; gap:2px; color:var(--gold);}
+  .achv-stars svg{width:14px; height:14px;}
+  .achv-name{
+    margin-top:auto; padding-top:12px; border-top:1px dashed var(--line);
+    font-size:13px; font-weight:700; color:var(--teal-deepest);
+  }
+  .achv-photo{
+    width:100%; aspect-ratio:16/10; border-radius:12px; overflow:hidden;
+    background:var(--teal-mist); margin-bottom:2px;
+  }
+  .achv-photo img{width:100%; height:100%; object-fit:cover;}
+  @media (max-width:960px){ .achv-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:640px){ .achv-grid{grid-template-columns:1fr;} }
+
+  /* ===== BROCHURE ===== */
+  .brochure{
+    display:grid; grid-template-columns:repeat(2,1fr); gap:24px;
+  }
+  .brochure-card{
+    background:var(--paper);
+    border-radius:var(--radius);
+    border:1px solid var(--line);
+    overflow:hidden;
+    display:flex; flex-direction:column;
+  }
+  .brochure-card img{width:100%; display:block;}
+  .brochure-frame{
+    max-height:420px; overflow:hidden; position:relative;
+    background:var(--teal-mist);
+  }
+  .brochure-frame img{object-fit:cover; object-position:top; width:100%; height:100%;}
+  .brochure-foot{
+    padding:18px 22px; display:flex; align-items:center; justify-content:space-between; gap:12px;
+  }
+  .brochure-foot h4{font-size:15px; font-weight:700;}
+  .brochure-foot p{font-size:12.5px; color:var(--ink-soft); margin-top:4px;}
+
+  /* ===== BLOG ===== */
+  .blog-grid{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:22px;
+  }
+  .blog-card{
+    background:var(--paper); border-radius:var(--radius); border:1px solid var(--line);
+    padding:24px; display:flex; flex-direction:column; gap:12px;
+  }
+  .blog-thumb{
+    height:130px; border-radius:12px;
+    background:linear-gradient(135deg, var(--teal-mist), #fff);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .blog-thumb svg{width:36px; height:36px; color:var(--teal-primary);}
+  .blog-cat{font-size:11px; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--gold);}
+  .blog-card h3{font-size:16px; font-weight:700; margin-top:2px;}
+  .blog-card p{font-size:13.5px; color:var(--ink-soft);}
+  .blog-more{margin-top:auto; font-size:13px; font-weight:700; color:var(--teal-primary); display:flex; align-items:center; gap:6px;}
+  .blog-note{
+    margin-top:36px; background:var(--teal-mist); border-radius:var(--radius);
+    padding:20px 24px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; justify-content:space-between;
+  }
+  .blog-note p{font-size:13.5px; color:var(--ink-soft); max-width:520px;}
+
+  /* ===== REGISTER ===== */
+  .register-section{background:var(--paper);}
+  .register-inner{
+    display:grid;
+    grid-template-columns:0.85fr 1.15fr;
+    gap:48px;
+    align-items:flex-start;
+    background:var(--teal-mist);
+    border-radius:24px;
+    padding:44px;
+  }
+  .register-copy .eyebrow{color:var(--teal-bright);}
+  .register-copy h2{font-size:clamp(24px,3.2vw,32px); font-weight:800; margin-top:10px;}
+  .register-copy p{margin-top:14px; color:var(--ink-soft); font-size:15.5px;}
+  .register-points{margin-top:22px; display:flex; flex-direction:column; gap:12px;}
+  .register-points li{display:flex; gap:10px; align-items:flex-start; font-size:14px; font-weight:600;}
+  .register-points li svg{width:19px; height:19px; color:var(--teal-bright); flex-shrink:0; margin-top:2px;}
+  .register-form-wrap{
+    background:var(--paper);
+    border-radius:18px;
+    padding:10px;
+    box-shadow:var(--shadow);
+    overflow:hidden;
+  }
+  .register-form-wrap iframe{width:100%; min-height:520px; border:0; display:block;}
+  @media (max-width:960px){
+    .register-inner{grid-template-columns:1fr; padding:28px;}
+  }
+
+  /* ===== CONTACT ===== */
+  .contact-section{
+    background:linear-gradient(160deg, var(--teal-deepest), var(--teal-dark));
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+  }
+  .contact-grid{
+    display:grid; grid-template-columns:1fr 1fr; gap:48px;
+    position:relative; z-index:2;
+  }
+  .contact-section .eyebrow{color:var(--gold-soft);}
+  .contact-section .eyebrow::before{background:var(--gold-soft);}
+  .contact-section h2{color:#fff; font-size:clamp(26px,3.4vw,34px); font-weight:800; margin-top:10px;}
+  .contact-section > .wrap > p{color:rgba(255,255,255,0.75); margin-top:14px; max-width:460px;}
+  .contact-cards{display:flex; flex-direction:column; gap:16px; margin-top:30px;}
+  .contact-card{
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.12);
+    border-radius:16px;
+    padding:18px 20px;
+    display:flex; align-items:center; gap:16px;
+  }
+  .contact-card .ic{
+    width:46px; height:46px; border-radius:12px; flex-shrink:0;
+    background:var(--gold); color:var(--teal-deepest);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .contact-card .ic svg{width:22px; height:22px;}
+  .contact-card b{display:block; font-size:14px;}
+  .contact-card span{font-size:13px; color:rgba(255,255,255,0.7);}
+  .contact-card a.link-out{margin-left:auto; font-size:13px; font-weight:700; color:var(--gold-soft);}
+
+  .map-wrap{
+    border-radius:var(--radius);
+    overflow:hidden;
+    border:1px solid rgba(255,255,255,0.15);
+    min-height:420px;
+  }
+  .map-wrap iframe{width:100%; height:100%; min-height:420px; border:0; filter:grayscale(0.1) contrast(1.05);}
+
+  /* ===== FOOTER ===== */
+  footer{
+    background:var(--teal-deepest);
+    color:rgba(255,255,255,0.65);
+  }
+  .footer-grid{
+    padding:56px 0 40px;
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr 1.1fr;
+    gap:32px;
+  }
+  .footer-col h4{
+    color:#fff; font-size:14px; font-weight:700; margin-bottom:16px; letter-spacing:.02em;
+  }
+  .footer-col a{
+    display:block; font-size:13.5px; color:rgba(255,255,255,0.65);
+    margin-bottom:11px; transition:color .15s ease;
+  }
+  .footer-col a:hover{color:var(--gold-soft);}
+  .footer-col p{font-size:13px; color:rgba(255,255,255,0.6); line-height:1.6;}
+  .footer-about .footer-brand{
+    display:flex; align-items:center; gap:10px; color:#fff; font-weight:700;
+    font-family:'Poppins',sans-serif; font-size:16px; margin-bottom:14px;
+  }
+  .footer-social{display:flex; gap:10px; margin-top:18px;}
+  .footer-social a{
+    width:36px; height:36px; border-radius:10px;
+    background:rgba(255,255,255,0.08);
+    display:flex; align-items:center; justify-content:center;
+    color:#fff;
+  }
+  .footer-social a svg{width:17px; height:17px;}
+  .footer-bottom{
+    border-top:1px solid rgba(255,255,255,0.08);
+    padding:18px 0;
+    font-size:12.5px;
+    text-align:center;
+  }
+  @media (max-width:860px){
+    .footer-grid{grid-template-columns:1fr 1fr; gap:32px 24px;}
+  }
+  @media (max-width:560px){
+    .footer-grid{grid-template-columns:1fr;}
+  }
+
+  .whatsapp-float{
+    position:fixed; bottom:22px; right:22px; z-index:200;
+    width:58px; height:58px; border-radius:50%;
+    background:#25D366;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 14px 30px -10px rgba(37,211,102,0.7);
+    animation:pulse 2.4s ease-in-out infinite;
+  }
+  .whatsapp-float svg{width:28px; height:28px; color:#fff;}
+  @keyframes pulse{
+    0%,100%{box-shadow:0 14px 30px -10px rgba(37,211,102,0.7);}
+    50%{box-shadow:0 14px 30px -6px rgba(37,211,102,0.95);}
+  }
+
+  @media (max-width:960px){
+    .about{grid-template-columns:1fr;}
+    .program-grid{grid-template-columns:repeat(2,1fr);}
+    .why-grid{grid-template-columns:repeat(2,1fr);}
+    .moment-grid{grid-template-columns:1fr;}
+    .brochure{grid-template-columns:1fr;}
+    .blog-grid{grid-template-columns:1fr;}
+    .contact-grid{grid-template-columns:1fr;}
+    .nav-links{
+      position:absolute; top:100%; left:0; right:0;
+      background:var(--paper);
+      flex-direction:column; align-items:stretch;
+      padding:14px 20px 20px;
+      border-bottom:1px solid var(--line);
+      display:none;
+      max-height:calc(100vh - 70px);
+      overflow-y:auto;
+    }
+    .nav-links.open{display:flex;}
+    .nav-toggle{display:block;}
+    .nav-cta .btn span{display:none;}
+    .nav-item{width:100%;}
+    .nav-toggle-item{width:100%; justify-content:space-between; padding:13px 4px; border-bottom:1px solid var(--line);}
+    .nav-plain-link{padding:13px 4px; border-bottom:1px solid var(--line); display:block;}
+    .dropdown-panel{
+      position:static; box-shadow:none; border:none; border-radius:0;
+      padding:4px 0 4px 14px; min-width:0; width:100%;
+    }
+    .mega-panel{grid-template-columns:1fr; min-width:0;}
+  }
+  @media (max-width:640px){
+    .section{padding:64px 0;}
+    .program-grid{grid-template-columns:1fr;}
+    .why-grid{grid-template-columns:1fr;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="topbar-left">
+      <a class="wa-link" href="https://wa.me/6285591176303" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Z"/></svg>
+        <span id="topbarWaDisplay">0855 9117 6303</span>
+      </a>
+      <span class="tb-address" id="topbarAddress">Lubang Buaya, Cipayung, Jakarta Timur</span>
+    </div>
+    <div class="topbar-social">
+      <a id="topbarIg" href="https://instagram.com/sahabatmadani" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="brand">
+      <span class="brand-mark" id="brandMarkHeader">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C9 2 7 5 7 8c0 1.4.5 2.6 1.3 3.5C6.9 12.6 6 14.3 6 16c0 3.3 2.7 6 6 6s6-2.7 6-6c0-1.7-.9-3.4-2.3-4.5C16.5 10.6 17 9.4 17 8c0-3-2-6-5-6z" stroke="#F6D9A0" stroke-width="1.4" stroke-linejoin="round"/><path d="M12 22V13" stroke="#F6D9A0" stroke-width="1.4"/></svg>
+      </span>
+      <span class="brand-text">
+        <b>SunTree Bimbel</b>
+        <span>Sun-Tree Madani</span>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <div class="nav-item">
+        <button class="nav-toggle-item" type="button">
+          Tentang Kami
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="dropdown-panel">
+          <a href="#tentang">Tentang SunTree</a>
+          <a href="#kenapa">Kenapa Memilih Kami</a>
+          <a href="#tutor">Daftar Tutor</a>
+          <a href="#prestasi">Prestasi</a>
+          <a href="#prestasi">Testimoni</a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-toggle-item" type="button">
+          Program
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="dropdown-panel mega-panel" id="programMegaMenu">
+          <a href="#program-1">Pelajaran Pokok SD</a>
+          <a href="#program-2">Calistung</a>
+          <a href="#program-3">Pelajaran Pokok SMP</a>
+          <a href="#program-4">Private (di rumah)</a>
+          <a href="#program-5">Program Fokus</a>
+          <a href="#program-6">Les MTK &amp; IPA</a>
+          <a href="#program-7">Persiapan TKA &amp; SNBT</a>
+          <a href="#program-8">Program Intensif</a>
+          <a class="mega-see-all" href="#program">Lihat Semua Program →</a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-toggle-item" type="button">
+          Dokumentasi
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="dropdown-panel">
+          <a href="#galeri">Galeri</a>
+          <a href="#brosur">Brosur</a>
+          <a href="#kegiatan">Kegiatan</a>
+        </div>
+      </div>
+
+      <a href="#blog" class="nav-plain-link">Tips Belajar</a>
+
+      <div class="nav-item">
+        <button class="nav-toggle-item" type="button">
+          Kontak
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="dropdown-panel">
+          <a href="#kontak">Hubungi Kami</a>
+          <a href="#kontak-lokasi">Lokasi</a>
+          <a class="wa-link" href="https://wa.me/6285591176303" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-gold" href="#daftar">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        <span>Daftar Sekarang</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="heroSection">
+    <div class="hero-media" id="heroMedia">
+      <img id="heroImage" src="assets/pamflet-program.png" alt="">
+      <video id="heroVideo" autoplay muted loop playsinline style="display:none;"></video>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="wrap">
+      <span class="hero-badge" id="heroEyebrow">Bimbel Terpercaya di Cipayung</span>
+      <h1 id="heroTitle">Belajar Bersama,<br>Meraih <em>Prestasi</em> Bersama!</h1>
+    </div>
+  </section>
+
+  <div class="welcome-wrap">
+    <div class="wrap">
+      <div class="welcome-card">
+        <div class="welcome-copy">
+          <h2>Selamat Datang di laman resmi SunTree Bimbel</h2>
+          <p id="heroLead">SunTree Bimbel mendampingi siswa TK hingga SMA dengan kelas kecil, pengajar berpengalaman, dan metode belajar yang menyenangkan — di Lubang Buaya, Cipayung, Jakarta Timur.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold wa-link" id="heroCtaWa" href="https://wa.me/6285591176303?text=Halo%20SunTree%20Bimbel%2C%20saya%20ingin%20jadwalkan%20konsultasi%20%2B%20tes%20gratis." target="_blank" rel="noopener">Jadwalkan Konsultasi Gratis</a>
+            <a class="btn btn-line" href="#program">Lihat Semua Program</a>
+          </div>
+        </div>
+        <div class="welcome-photo">
+          <div class="welcome-photo-inner">
+            <img id="welcomePhoto" src="assets/pamflet-promo.png" alt="Ferry M Yusuf, M.Pd - Founder SunTree Bimbel">
+            <div class="welcome-photo-tag">
+              <b id="welcomePhotoName">Ferry M Yusuf, M.Pd</b>
+              <span id="welcomePhotoRole">Founder SunTree Bimbel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="stats-section">
+    <div class="wrap stats-grid" id="heroStats">
+      <div class="stat-box">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M17 20v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M22 20v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <b>9</b>
+        <span>Maks. siswa / kelas</span>
+      </div>
+      <div class="stat-box">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+        <b>8</b>
+        <span>Pilihan program belajar</span>
+      </div>
+      <div class="stat-box">
+        <div class="stat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg></div>
+        <b>TK–SMA</b>
+        <span>Semua jenjang dilayani</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="wrap cta-banner-inner">
+      <div>
+        <span class="eyebrow">Penerimaan Peserta Didik Baru</span>
+        <h3>Pendaftaran Tahun Ajaran 2026/2027 Sudah Dibuka</h3>
+      </div>
+      <a class="btn btn-gold" href="#daftar">Daftar Sekarang</a>
+    </div>
+  </section>
+
+  <section class="section" id="tentang">
+    <div class="wrap about">
+      <div class="about-visual">
+        <img src="assets/pamflet-promo.png" alt="Suasana belajar di SunTree Bimbel">
+        <div class="about-badge">
+          <b id="aboutBadgeYear">2026</b>
+          <span id="aboutBadgeText">Melayani keluarga<br>di Cipayung &amp; sekitarnya</span>
+        </div>
+      </div>
+      <div class="about-copy">
+        <span class="eyebrow" id="aboutEyebrow">Tentang Kami</span>
+        <h2 id="aboutTitle">Rumah belajar kedua untuk putra-putri Anda</h2>
+        <p class="rm-text" id="aboutText">SunTree Bimbel hadir sebagai bimbingan belajar terpercaya untuk siswa TK, SD, SMP, hingga SMA. Kami percaya setiap anak punya potensi yang berbeda — karena itu kelas dibuat kecil, materi disesuaikan jenjang, dan pengajar kami mendampingi sampai anak benar-benar paham.</p>
+        <ul class="about-list" id="aboutList">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Kurikulum terstruktur &amp; materi selalu diperbarui</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Pendekatan personal, bukan kelas massal</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Monitoring perkembangan belajar tiap siswa</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="vmm-grid" id="vmmGrid">
+        <div class="vmm-card">
+          <div class="vmm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>Visi</h3>
+          <p class="rm-text" id="vmmVision">Menjadi bimbingan belajar terpercaya yang membentuk generasi cerdas, mandiri, dan berprestasi di lingkungan Cipayung dan sekitarnya.</p>
+        </div>
+        <div class="vmm-card">
+          <div class="vmm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <h3>Misi</h3>
+          <ul id="vmmMissionList">
+            <li>Memberikan bimbingan belajar berkualitas dengan metode yang efektif dan menyenangkan.</li>
+            <li>Membangun kedekatan personal antara pengajar dan siswa lewat kelas kecil.</li>
+            <li>Melibatkan orang tua secara aktif dalam memantau perkembangan belajar anak.</li>
+          </ul>
+        </div>
+        <div class="vmm-card">
+          <div class="vmm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M12 2l2.9 6.3 6.9.6-5.2 4.6 1.6 6.8L12 16.9 5.8 20.3l1.6-6.8L2.2 8.9l6.9-.6z"/></svg></div>
+          <h3>Moto</h3>
+          <p id="vmmMotto">"Belajar Bersama, Meraih Prestasi Bersama."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section why-section" id="kenapa">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow" id="whyEyebrow">Kenapa SunTree Bimbel?</span>
+        <h2 id="whyTitle">Belajar jadi lebih terarah &amp; menyenangkan</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+          <h3 id="why1Title">Pengajar Berpengalaman</h3>
+          <p id="why1Desc">Diampu oleh pengajar profesional yang terbiasa mendampingi siswa dari berbagai jenjang.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+          <h3 id="why2Title">Kurikulum Terstruktur</h3>
+          <p id="why2Desc">Materi disusun bertahap dan selalu diperbarui mengikuti kurikulum sekolah terkini.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <h3 id="why3Title">Metode Efektif &amp; Personal</h3>
+          <p id="why3Desc">Kelas kecil membuat setiap anak benar-benar diperhatikan, bukan sekadar ikut kelas.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
+          <h3 id="why4Title">Monitoring Perkembangan</h3>
+          <p id="why4Desc">Orang tua mendapat gambaran perkembangan belajar anak secara berkala.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+          <h3 id="why5Title">Konsultasi Gratis</h3>
+          <p id="why5Desc">Bingung pilih program yang cocok? Konsultasikan dulu, tanpa biaya.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <h3 id="why6Title">Try Out PTS &amp; PAS</h3>
+          <p id="why6Desc">Latihan soal rutin agar siswa lebih siap menghadapi ujian sekolah.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tutor-section" id="tutor">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Tim Pengajar</span>
+        <h2>Daftar Tutor SunTree Bimbel</h2>
+        <p>Diampu oleh pengajar berpengalaman dan berdedikasi di bidangnya masing-masing.</p>
+      </div>
+      <div class="tutor-grid" id="tutorGrid">
+        <div class="gallery-empty">Data tutor belum ditambahkan. Isi lewat panel admin.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section achievements-section" id="prestasi">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Prestasi &amp; Review</span>
+        <h2>Dipercaya orang tua, dibuktikan lewat prestasi</h2>
+        <p>Beberapa pencapaian siswa dan cerita dari orang tua yang sudah bergabung di SunTree Bimbel.</p>
+      </div>
+      <div class="achv-grid" id="achievementsGrid">
+        <div class="gallery-empty">Belum ada data prestasi/review. Tambahkan lewat panel admin.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="program" style="padding-top:0;">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Program Belajar</span>
+        <h2>Pilih program sesuai kebutuhan anak</h2>
+        <p>Delapan pilihan program dari usia TK sampai persiapan masuk kuliah — jadwal fleksibel, biaya transparan.</p>
+      </div>
+
+      <div class="program-grid" id="programGrid"></div>
+    </div>
+  </section>
+
+  <section class="section gallery-section" id="galeri">
+    <div class="wrap">
+      <div class="gallery-toolbar">
+        <div class="section-head" style="margin-bottom:0;">
+          <span class="eyebrow">Galeri Foto</span>
+          <h2>Momen belajar di SunTree Bimbel</h2>
+        </div>
+        <span class="gallery-count" id="galleryCount">0 foto</span>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-empty">Galeri masih kosong — foto yang Anda unggah lewat panel admin akan muncul otomatis di sini.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="brosur" style="padding-top:0;">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Info Lengkap</span>
+        <h2>Lihat brosur program lengkap</h2>
+        <p>Detail seluruh program, jadwal, dan biaya dalam satu gambar — mudah untuk dibagikan ke keluarga.</p>
+      </div>
+      <div class="brochure">
+        <div class="brochure-card">
+          <div class="brochure-frame"><img src="assets/pamflet-program.png" alt="Brosur Program Belajar SunTree Bimbel"></div>
+          <div class="brochure-foot">
+            <div>
+              <h4>Brosur Program Belajar</h4>
+              <p>Rincian 8 program, jenjang, jadwal &amp; biaya</p>
+            </div>
+            <a class="btn btn-line" href="assets/pamflet-program.png" target="_blank" rel="noopener">Buka</a>
+          </div>
+        </div>
+        <div class="brochure-card">
+          <div class="brochure-frame"><img src="assets/pamflet-promo.png" alt="Brosur Promo SunTree Bimbel"></div>
+          <div class="brochure-foot">
+            <div>
+              <h4>Brosur Promo &amp; Keunggulan</h4>
+              <p>Kenapa harus SunTree Bimbel</p>
+            </div>
+            <a class="btn btn-line" href="assets/pamflet-promo.png" target="_blank" rel="noopener">Buka</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="kegiatan">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Suasana Belajar</span>
+        <h2>Belajar seru, bukan sekadar setoran nilai</h2>
+      </div>
+      <div class="moment-grid">
+        <div class="moment-card">
+          <div class="moment-photo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 9V5a3 3 0 0 0-6 0v4"/><rect x="5" y="9" width="14" height="11" rx="2"/></svg>
+            <span class="moment-tag">Belajar Seru</span>
+          </div>
+          <div class="moment-body"><p>Suasana belajar menyenangkan yang menumbuhkan semangat dan percaya diri siswa.</p></div>
+        </div>
+        <div class="moment-card">
+          <div class="moment-photo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="8" r="3.2"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17.5" cy="9.5" r="2.4"/><path d="M15.5 20a5 5 0 0 1 6.5-4.8"/></svg>
+            <span class="moment-tag">Teman Baru</span>
+          </div>
+          <div class="moment-body"><p>Bersama teman baru, belajar jadi lebih seru dan penuh kebersamaan.</p></div>
+        </div>
+        <div class="moment-card">
+          <div class="moment-photo">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l2.6 6.2L21 9l-5 4.4L17.3 20 12 16.6 6.7 20 8 13.4 3 9l6.4-.8z"/></svg>
+            <span class="moment-tag">Prestasi Meningkat</span>
+          </div>
+          <div class="moment-body"><p>Dibimbing sampai paham, siswa jadi lebih siap meraih prestasi terbaiknya.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="blog">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Tips Belajar</span>
+        <h2>Catatan &amp; tips seputar belajar anak</h2>
+        <p>Ruang berbagi tips belajar, info try out, dan cerita dari SunTree Bimbel.</p>
+      </div>
+      <div class="blog-grid" id="blogGrid"></div>
+      <div class="blog-note">
+        <p>Konten galeri dan blog di halaman ini dimuat otomatis dari panel admin — begitu Anda unggah foto atau tulis artikel baru lewat <code>/admin</code>, isinya langsung tampil di sini tanpa perlu edit kode.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section register-section" id="daftar">
+    <div class="wrap">
+      <div class="register-inner">
+        <div class="register-copy">
+          <span class="eyebrow">Pendaftaran</span>
+          <h2>Daftarkan putra-putri Anda sekarang</h2>
+          <p>Isi form di samping, tim kami akan menghubungi Anda lewat WhatsApp untuk jadwal konsultasi dan tes penempatan gratis.</p>
+          <ul class="register-points">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Konsultasi &amp; tes awal gratis</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Dihubungi maks. 1x24 jam kerja</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Bisa juga daftar langsung via WhatsApp</li>
+          </ul>
+          <a class="btn btn-line wa-link" style="margin-top:22px;" href="https://wa.me/6285591176303?text=Halo%20SunTree%20Bimbel%2C%20saya%20ingin%20daftar." target="_blank" rel="noopener">Atau daftar via WhatsApp</a>
+        </div>
+        <div class="register-form-wrap">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSez3Y4PoRtETO2BDLQx1F2_2k1IiwGI7EOz-EWdx1L3ntImPg/viewform?embedded=true" loading="lazy" title="Form Pendaftaran SunTree Bimbel">Loading…</iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="kontak">
+    <div class="wrap">
+      <span class="eyebrow">Kontak &amp; Lokasi</span>
+      <h2>Yuk, konsultasikan kebutuhan belajar anak</h2>
+      <p>Tim kami siap membantu memilihkan program yang paling sesuai — konsultasi &amp; tes awal gratis.</p>
+
+      <div class="contact-grid" style="margin-top:36px;">
+        <div>
+          <div class="contact-cards">
+            <div class="contact-card">
+              <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Z"/></svg></span>
+              <div>
+                <b>WhatsApp</b>
+                <span id="contactWaDisplay">0855 9117 6303</span>
+              </div>
+              <a class="link-out wa-link" id="contactWaLink" href="https://wa.me/6285591176303" target="_blank" rel="noopener">Chat →</a>
+            </div>
+            <div class="contact-card">
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <div>
+                <b>Alamat</b>
+                <span id="contactAddress">Lubang Buaya, Cipayung, Jakarta Timur</span>
+              </div>
+            </div>
+            <div class="contact-card">
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span>
+              <div>
+                <b>Instagram</b>
+                <span id="contactIgHandle">@sahabatmadani</span>
+              </div>
+              <a class="link-out" id="contactIgLink" href="https://instagram.com/sahabatmadani" target="_blank" rel="noopener">Follow →</a>
+            </div>
+          </div>
+        </div>
+        <div class="map-wrap" id="kontak-lokasi">
+          <iframe
+            id="contactMap"
+            src="https://maps.google.com/maps?q=Lubang%20Buaya%2C%20Cipayung%2C%20Jakarta%20Timur&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Lokasi SunTree Bimbel"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section faq-section" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">FAQ</span>
+        <h2>Pertanyaan yang Sering Ditanyakan</h2>
+        <p>Belum menemukan jawaban? Langsung tanya lewat WhatsApp saja.</p>
+      </div>
+      <div class="faq-list" id="faqList">
+        <details class="faq-item" open>
+          <summary>Bagaimana cara mendaftar di SunTree Bimbel?</summary>
+          <p>Isi form pendaftaran di halaman ini (bagian "Daftar Sekarang") atau hubungi kami langsung lewat WhatsApp, tim kami akan membantu proses selanjutnya.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div class="footer-col footer-about">
+      <div class="footer-brand">
+        <span class="brand-mark" id="brandMarkFooter" style="width:36px;height:36px;">
+          <svg viewBox="0 0 24 24" fill="none" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C9 2 7 5 7 8c0 1.4.5 2.6 1.3 3.5C6.9 12.6 6 14.3 6 16c0 3.3 2.7 6 6 6s6-2.7 6-6c0-1.7-.9-3.4-2.3-4.5C16.5 10.6 17 9.4 17 8c0-3-2-6-5-6z" stroke="#F6D9A0" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        </span>
+        SunTree Bimbel
+      </div>
+      <p>Bimbingan belajar TK–SMA dengan kelas kecil, pengajar berpengalaman, dan metode belajar yang menyenangkan.</p>
+      <div class="footer-social">
+        <a id="footerIg" href="https://instagram.com/sahabatmadani" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+        <a class="wa-link" href="https://wa.me/6285591176303" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Tautan Cepat</h4>
+      <a href="#tentang">Tentang Kami</a>
+      <a href="#program">Program Belajar</a>
+      <a href="#kenapa">Kenapa Kami</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#blog">Tips Belajar</a>
+    </div>
+    <div class="footer-col">
+      <h4>Pendaftaran</h4>
+      <a href="#daftar">Form Pendaftaran</a>
+      <a href="#brosur">Brosur Program</a>
+      <a href="#kontak">Kontak &amp; Lokasi</a>
+    </div>
+    <div class="footer-col">
+      <h4>Alamat</h4>
+      <p id="footerAddress">Lubang Buaya, Cipayung, Jakarta Timur</p>
+      <p id="footerWaDisplay">WA: 0855 9117 6303</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="wrap">© 2026 SunTree Bimbel. Belajar Bersama, Meraih Prestasi Bersama.</div>
+  </div>
+</footer>
+
+<a class="whatsapp-float wa-link" href="https://wa.me/6285591176303?text=Halo%20SunTree%20Bimbel%2C%20saya%20ingin%20tanya-tanya." target="_blank" rel="noopener" aria-label="Chat via WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Z"/></svg>
+</a>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+
+  // Dropdown menu (Tentang Kami, Program, Dokumentasi, Kontak)
+  document.querySelectorAll('.nav-toggle-item').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const item = btn.closest('.nav-item');
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.nav-item.open').forEach(i => { if (i !== item) i.classList.remove('open'); });
+      item.classList.toggle('open', !wasOpen);
+    });
+  });
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.nav-item.open').forEach(i => i.classList.remove('open'));
+  });
+
+  navLinks.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      document.querySelectorAll('.nav-item.open').forEach(i => i.classList.remove('open'));
+    });
+  });
+
+  // ==== Read More: tampilkan tombol "Baca Selengkapnya" jika teks terpotong ====
+  function applyReadMore(scope) {
+    (scope || document).querySelectorAll('.rm-text').forEach(p => {
+      const next = p.nextElementSibling;
+      if (next && next.classList && next.classList.contains('rm-btn')) return;
+      requestAnimationFrame(() => {
+        if (p.scrollHeight > p.clientHeight + 2) {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'rm-btn';
+          btn.textContent = 'Baca Selengkapnya';
+          btn.addEventListener('click', () => {
+            const expanded = p.classList.toggle('rm-expanded');
+            btn.textContent = expanded ? 'Tutup' : 'Baca Selengkapnya';
+          });
+          p.insertAdjacentElement('afterend', btn);
+        }
+      });
+    });
+  }
+
+  // ==== Muat Galeri Foto dari data/gallery.json ====
+  fetch('data/gallery.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const photos = (data && data.photos) || [];
+      const grid = document.getElementById('galleryGrid');
+      const count = document.getElementById('galleryCount');
+      if (!photos.length) return;
+      count.textContent = photos.length + ' foto';
+      grid.innerHTML = photos.map(p => `
+        <div class="gallery-item">
+          <img src="${p.image}" alt="${(p.caption || 'Foto SunTree Bimbel').replace(/"/g,'&quot;')}" loading="lazy">
+          ${p.caption ? `<div class="cap">${p.caption}</div>` : ''}
+        </div>
+      `).join('');
+    })
+    .catch(() => { /* biarkan tampilan kosong bawaan jika file belum ada */ });
+
+  // ==== Muat Blog dari data/posts.json ====
+  const blogIcons = {
+    default: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>'
+  };
+  fetch('data/posts.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const posts = (data && data.posts) || [];
+      const grid = document.getElementById('blogGrid');
+      if (!posts.length) {
+        grid.innerHTML = '<div class="gallery-empty">Belum ada artikel. Tulis artikel pertama lewat panel admin.</div>';
+        return;
+      }
+      grid.innerHTML = posts.map(post => `
+        <div class="blog-card">
+          <div class="blog-thumb">${post.image ? `<img src="${post.image}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">` : blogIcons.default}</div>
+          <span class="blog-cat">${post.category || 'Tips Belajar'}</span>
+          <h3>${post.title}</h3>
+          <p class="rm-text">${post.excerpt || ''}</p>
+          <span class="blog-more">${post.date || ''}</span>
+        </div>
+      `).join('');
+      applyReadMore(grid);
+    })
+    .catch(() => { /* biarkan kosong jika file belum ada */ });
+
+  // ==== Muat Program dari data/programs.json ====
+  fetch('data/programs.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const programs = (data && data.programs) || [];
+      const grid = document.getElementById('programGrid');
+      const mega = document.getElementById('programMegaMenu');
+      if (!programs.length) return;
+      grid.innerHTML = programs.map((p, i) => `
+        <div class="program-card" id="program-${i + 1}">
+          <div class="program-num">${i + 1}</div>
+          <span class="program-jenjang">${p.jenjang || ''}</span>
+          <h3>${p.title || ''}</h3>
+          <ul>
+            ${(p.details || []).map(d => `<li>${d}</li>`).join('')}
+          </ul>
+          <div class="program-price"><b>${p.price || ''}</b><span>${p.price_unit || ''}</span></div>
+          ${p.note ? `<span class="program-note">${p.note}</span>` : ''}
+        </div>
+      `).join('');
+      if (mega) {
+        mega.innerHTML = programs.map((p, i) => `<a href="#program-${i + 1}">${p.title || ''}</a>`).join('')
+          + `<a class="mega-see-all" href="#program">Lihat Semua Program →</a>`;
+        mega.querySelectorAll('a').forEach(a => {
+          a.addEventListener('click', () => {
+            navLinks.classList.remove('open');
+            document.querySelectorAll('.nav-item.open').forEach(i => i.classList.remove('open'));
+          });
+        });
+      }
+    })
+    .catch(() => { /* biarkan tampilan bawaan jika file belum ada */ });
+
+  // ==== Muat Prestasi & Review dari data/achievements.json ====
+  fetch('data/achievements.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const items = (data && data.items) || [];
+      const grid = document.getElementById('achievementsGrid');
+      if (!items.length) return;
+      const starIcon = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.6-5.2 4.6 1.6 6.8L12 16.9 5.8 20.3l1.6-6.8L2.2 8.9l6.9-.6z"/></svg>';
+      grid.innerHTML = items.map(item => {
+        const isReview = item.type === 'review';
+        return `
+          <div class="achv-card">
+            ${item.image ? `<div class="achv-photo"><img src="${item.image}" alt=""></div>` : ''}
+            <span class="achv-badge ${isReview ? 'review' : 'prestasi'}">${isReview ? 'Review Orang Tua' : 'Prestasi Siswa'}</span>
+            ${isReview ? `<div class="achv-stars">${starIcon.repeat(5)}</div>` : ''}
+            <h3>${item.title || ''}</h3>
+            <p class="rm-text">${item.description || ''}</p>
+            ${item.name ? `<div class="achv-name">${item.name}</div>` : ''}
+          </div>
+        `;
+      }).join('');
+      applyReadMore(grid);
+    })
+    .catch(() => { /* biarkan tampilan bawaan jika file belum ada */ });
+
+  // ==== Muat Daftar Tutor dari data/tutors.json ====
+  fetch('data/tutors.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const items = (data && data.items) || [];
+      const grid = document.getElementById('tutorGrid');
+      if (!items.length) return;
+      const personIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>';
+      grid.innerHTML = items.map(t => `
+        <div class="tutor-card">
+          <div class="tutor-photo">${t.image ? `<img src="${t.image}" alt="${(t.name || '').replace(/"/g,'&quot;')}">` : personIcon}</div>
+          <div class="tutor-body">
+            <h3>${t.name || ''}</h3>
+            <span class="tutor-subject">${t.subject || ''}</span>
+            <p class="rm-text">${t.bio || ''}</p>
+          </div>
+        </div>
+      `).join('');
+      applyReadMore(grid);
+    })
+    .catch(() => { /* biarkan tampilan bawaan jika file belum ada */ });
+
+  // ==== Muat FAQ dari data/faq.json ====
+  fetch('data/faq.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const items = (data && data.items) || [];
+      const list = document.getElementById('faqList');
+      if (!items.length) return;
+      list.innerHTML = items.map((item, i) => `
+        <details class="faq-item" ${i === 0 ? 'open' : ''}>
+          <summary>${item.question || ''}</summary>
+          <p>${item.answer || ''}</p>
+        </details>
+      `).join('');
+    })
+    .catch(() => { /* biarkan tampilan bawaan jika file belum ada */ });
+
+  fetch('data/settings.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(s => {
+      if (!s) return;
+      const setText = (id, val) => { const el = document.getElementById(id); if (el && val !== undefined) el.textContent = val; };
+
+      // Branding / Logo
+      if (s.branding && s.branding.logo) {
+        const logoHtml = `<img src="${s.branding.logo}" alt="Logo SunTree Bimbel" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">`;
+        const h = document.getElementById('brandMarkHeader');
+        const f = document.getElementById('brandMarkFooter');
+        if (h) h.innerHTML = logoHtml;
+        if (f) f.innerHTML = logoHtml;
+      }
+
+      // Hero
+      if (s.hero) {
+        setText('heroEyebrow', s.hero.eyebrow);
+        const titleEl = document.getElementById('heroTitle');
+        if (titleEl && s.hero.title) {
+          let html = s.hero.title;
+          if (s.hero.title_highlight) {
+            html = html.replace(s.hero.title_highlight, `<em>${s.hero.title_highlight}</em>`);
+          }
+          titleEl.innerHTML = html;
+        }
+        setText('heroLead', s.hero.lead);
+
+        // Latar belakang Hero: video (jika ada) atau foto
+        const heroImageEl = document.getElementById('heroImage');
+        const heroVideoEl = document.getElementById('heroVideo');
+        if (s.hero.hero_video) {
+          if (heroVideoEl) {
+            heroVideoEl.src = s.hero.hero_video;
+            heroVideoEl.style.display = 'block';
+          }
+          if (heroImageEl) heroImageEl.style.display = 'none';
+        } else if (s.hero.hero_image) {
+          if (heroImageEl) {
+            heroImageEl.src = s.hero.hero_image;
+            heroImageEl.style.display = 'block';
+          }
+          if (heroVideoEl) heroVideoEl.style.display = 'none';
+        }
+
+        const welcomePhoto = document.getElementById('welcomePhoto');
+        if (welcomePhoto && s.hero.welcome_image) welcomePhoto.src = s.hero.welcome_image;
+        setText('welcomePhotoName', s.hero.welcome_photo_name);
+        setText('welcomePhotoRole', s.hero.welcome_photo_role);
+        const statsEl = document.getElementById('heroStats');
+        if (statsEl && s.hero.stat1_num) {
+          const boxes = statsEl.querySelectorAll('.stat-box');
+          const vals = [
+            [s.hero.stat1_num, s.hero.stat1_label],
+            [s.hero.stat2_num, s.hero.stat2_label],
+            [s.hero.stat3_num, s.hero.stat3_label]
+          ];
+          boxes.forEach((box, i) => {
+            const b = box.querySelector('b'); const sp = box.querySelector('span');
+            if (b && vals[i][0] !== undefined) b.textContent = vals[i][0];
+            if (sp && vals[i][1] !== undefined) sp.textContent = vals[i][1];
+          });
+        }
+      }
+
+      // About
+      if (s.about) {
+        setText('aboutBadgeYear', s.about.badge_year);
+        const badgeText = document.getElementById('aboutBadgeText');
+        if (badgeText && s.about.badge_text) badgeText.innerHTML = s.about.badge_text;
+        setText('aboutEyebrow', s.about.eyebrow);
+        setText('aboutTitle', s.about.title);
+        setText('aboutText', s.about.text);
+        const list = document.getElementById('aboutList');
+        if (list && (s.about.point1 || s.about.point2 || s.about.point3)) {
+          const checkIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> ';
+          list.innerHTML = [s.about.point1, s.about.point2, s.about.point3]
+            .filter(Boolean)
+            .map(pt => `<li>${checkIcon}${pt}</li>`).join('');
+        }
+      }
+
+      // Visi, Misi, Moto
+      if (s.vmm) {
+        setText('vmmVision', s.vmm.vision);
+        setText('vmmMotto', s.vmm.motto);
+        const missionList = document.getElementById('vmmMissionList');
+        if (missionList && (s.vmm.mission1 || s.vmm.mission2 || s.vmm.mission3)) {
+          missionList.innerHTML = [s.vmm.mission1, s.vmm.mission2, s.vmm.mission3]
+            .filter(Boolean)
+            .map(m => `<li>${m}</li>`).join('');
+        }
+      }
+
+      // Why / Kenapa Kami
+      if (s.why) {
+        setText('whyEyebrow', s.why.eyebrow);
+        setText('whyTitle', s.why.title);
+        for (let i = 1; i <= 6; i++) {
+          setText(`why${i}Title`, s.why[`item${i}_title`]);
+          setText(`why${i}Desc`, s.why[`item${i}_desc`]);
+        }
+      }
+
+      // Contact
+      if (s.contact) {
+        setText('contactWaDisplay', s.contact.whatsapp_display);
+        setText('contactAddress', s.contact.address);
+        setText('contactIgHandle', s.contact.instagram_handle);
+        setText('topbarWaDisplay', s.contact.whatsapp_display);
+        setText('topbarAddress', s.contact.address);
+        setText('footerAddress', s.contact.address);
+        if (s.contact.whatsapp_display) setText('footerWaDisplay', 'WA: ' + s.contact.whatsapp_display);
+        const igLink = document.getElementById('contactIgLink');
+        if (igLink && s.contact.instagram_url) igLink.href = s.contact.instagram_url;
+        const topbarIg = document.getElementById('topbarIg');
+        if (topbarIg && s.contact.instagram_url) topbarIg.href = s.contact.instagram_url;
+        const footerIg = document.getElementById('footerIg');
+        if (footerIg && s.contact.instagram_url) footerIg.href = s.contact.instagram_url;
+        const map = document.getElementById('contactMap');
+        if (map && s.contact.address) {
+          map.src = 'https://maps.google.com/maps?q=' + encodeURIComponent(s.contact.address) + '&t=&z=14&ie=UTF8&iwloc=&output=embed';
+        }
+        if (s.contact.whatsapp_number) {
+          document.querySelectorAll('.wa-link').forEach(a => {
+            const url = new URL(a.href);
+            url.pathname = '/' + s.contact.whatsapp_number;
+            a.href = url.toString();
+          });
+          const contactLink = document.getElementById('contactWaLink');
+          if (contactLink) contactLink.href = 'https://wa.me/' + s.contact.whatsapp_number;
+        }
+      }
+      applyReadMore(document);
+    })
+    .catch(() => { /* biarkan teks bawaan jika file belum ada */ });
+</script>
+
+</body>
+</html>

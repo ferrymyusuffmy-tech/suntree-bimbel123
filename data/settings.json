@@ -1,0 +1,62 @@
+{
+  "branding": {
+    "logo": ""
+  },
+  "hero": {
+    "eyebrow": "Bimbel Terpercaya di Cipayung",
+    "title": "Belajar Bersama, Meraih Prestasi Bersama!",
+    "title_highlight": "Prestasi",
+    "lead": "SunTree Bimbel mendampingi siswa TK hingga SMA dengan kelas kecil, pengajar berpengalaman, dan metode belajar yang menyenangkan — di Lubang Buaya, Cipayung, Jakarta Timur.",
+    "hero_image": "assets/pamflet-program.png",
+    "hero_video": "",
+    "welcome_image": "assets/pamflet-promo.png",
+    "welcome_photo_name": "Ferry M Yusuf, M.Pd",
+    "welcome_photo_role": "Founder SunTree Bimbel",
+    "stat1_num": "9",
+    "stat1_label": "Maks. siswa / kelas",
+    "stat2_num": "8",
+    "stat2_label": "Pilihan program belajar",
+    "stat3_num": "TK–SMA",
+    "stat3_label": "Semua jenjang dilayani"
+  },
+  "about": {
+    "eyebrow": "Tentang Kami",
+    "title": "Rumah belajar kedua untuk putra-putri Anda",
+    "text": "SunTree Bimbel hadir sebagai bimbingan belajar terpercaya untuk siswa TK, SD, SMP, hingga SMA. Kami percaya setiap anak punya potensi yang berbeda — karena itu kelas dibuat kecil, materi disesuaikan jenjang, dan pengajar kami mendampingi sampai anak benar-benar paham.",
+    "badge_year": "2026",
+    "badge_text": "Melayani keluarga di Cipayung & sekitarnya",
+    "point1": "Kurikulum terstruktur & materi selalu diperbarui",
+    "point2": "Pendekatan personal, bukan kelas massal",
+    "point3": "Monitoring perkembangan belajar tiap siswa"
+  },
+  "why": {
+    "eyebrow": "Kenapa SunTree Bimbel?",
+    "title": "Belajar jadi lebih terarah & menyenangkan",
+    "item1_title": "Pengajar Berpengalaman",
+    "item1_desc": "Diampu oleh pengajar profesional yang terbiasa mendampingi siswa dari berbagai jenjang.",
+    "item2_title": "Kurikulum Terstruktur",
+    "item2_desc": "Materi disusun bertahap dan selalu diperbarui mengikuti kurikulum sekolah terkini.",
+    "item3_title": "Metode Efektif & Personal",
+    "item3_desc": "Kelas kecil membuat setiap anak benar-benar diperhatikan, bukan sekadar ikut kelas.",
+    "item4_title": "Monitoring Perkembangan",
+    "item4_desc": "Orang tua mendapat gambaran perkembangan belajar anak secara berkala.",
+    "item5_title": "Konsultasi Gratis",
+    "item5_desc": "Bingung pilih program yang cocok? Konsultasikan dulu, tanpa biaya.",
+    "item6_title": "Try Out PTS & PAS",
+    "item6_desc": "Latihan soal rutin agar siswa lebih siap menghadapi ujian sekolah."
+  },
+  "vmm": {
+    "vision": "Menjadi bimbingan belajar terpercaya yang membentuk generasi cerdas, mandiri, dan berprestasi di lingkungan Cipayung dan sekitarnya.",
+    "mission1": "Memberikan bimbingan belajar berkualitas dengan metode yang efektif dan menyenangkan.",
+    "mission2": "Membangun kedekatan personal antara pengajar dan siswa lewat kelas kecil.",
+    "mission3": "Melibatkan orang tua secara aktif dalam memantau perkembangan belajar anak.",
+    "motto": "\"Belajar Bersama, Meraih Prestasi Bersama.\""
+  },
+  "contact": {
+    "whatsapp_number": "6285591176303",
+    "whatsapp_display": "0855 9117 6303",
+    "address": "Lubang Buaya, Cipayung, Jakarta Timur",
+    "instagram_handle": "@sahabatmadani",
+    "instagram_url": "https://instagram.com/sahabatmadani"
+  }
+}

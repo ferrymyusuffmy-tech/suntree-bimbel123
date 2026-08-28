@@ -1,0 +1,222 @@
+# Use DecapBridge PKCE auth (required)
+backend:
+  name: git-gateway
+  repo: ferrymyusuffmy-tech/suntree-bimbel
+  branch: main
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/29c2462f-250d-43e5-bf91-bd548485f1f1/pkce
+  auth_token_endpoint: /sites/29c2462f-250d-43e5-bf91-bd548485f1f1/token
+  gateway_url: https://gateway.decapbridge.com
+  commit_messages:
+    create: Create {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    update: Update {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    delete: Delete {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    uploadMedia: Upload "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    deleteMedia: Delete "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge
+    openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
+
+auth:
+  email_claim: email
+  first_name_claim: first_name
+  last_name_claim: last_name
+  avatar_url_claim: avatar_url
+
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+site_url: https://suntreebimbel.netlify.app
+
+media_folder: "assets/uploads"
+public_folder: "assets/uploads"
+
+locale: "id"
+
+collections:
+  - name: "gallery"
+    label: "Galeri Foto"
+    files:
+      - name: "gallery"
+        label: "Daftar Foto Galeri"
+        file: "data/gallery.json"
+        fields:
+          - label: "Foto"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Gambar", name: "image", widget: "image" }
+              - { label: "Keterangan Foto", name: "caption", widget: "string", required: false }
+
+  - name: "blog"
+    label: "Blog"
+    files:
+      - name: "blog"
+        label: "Daftar Artikel Blog"
+        file: "data/posts.json"
+        fields:
+          - label: "Artikel"
+            name: "posts"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Judul Artikel", name: "title", widget: "string" }
+              - { label: "Kategori", name: "category", widget: "string", required: false, hint: "Contoh: Tips Orang Tua, Persiapan Ujian, Cerita SunTree" }
+              - { label: "Ringkasan Singkat", name: "excerpt", widget: "text" }
+              - { label: "Tanggal", name: "date", widget: "string", required: false, hint: "Contoh: 12 Agustus 2026" }
+              - { label: "Gambar Sampul", name: "image", widget: "image", required: false }
+
+  - name: "programs"
+    label: "Program Belajar"
+    files:
+      - name: "programs"
+        label: "Daftar Program"
+        file: "data/programs.json"
+        fields:
+          - label: "Program"
+            name: "programs"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.price}}"
+            fields:
+              - { label: "Jenjang (contoh: SD, TK–SMP, dst)", name: "jenjang", widget: "string" }
+              - { label: "Nama Program", name: "title", widget: "string" }
+              - label: "Rincian (jadwal, mata pelajaran, dll)"
+                name: "details"
+                widget: "list"
+                field: { label: "Baris", name: "line", widget: "string" }
+              - { label: "Harga", name: "price", widget: "string", hint: "Contoh: Rp195.000" }
+              - { label: "Satuan Harga", name: "price_unit", widget: "string", hint: "Contoh: / bulan atau / 1,5 jam" }
+              - { label: "Catatan Tambahan", name: "note", widget: "string", required: false, hint: "Contoh: + biaya tambahan (kosongkan jika tidak ada)" }
+
+  - name: "settings"
+    label: "Pengaturan Halaman"
+    files:
+      - name: "settings"
+        label: "Teks Halaman & Kontak"
+        file: "data/settings.json"
+        fields:
+          - label: "Logo & Branding"
+            name: "branding"
+            widget: "object"
+            fields:
+              - { label: "Logo (kosongkan untuk pakai ikon pohon bawaan)", name: "logo", widget: "image", required: false }
+          - label: "Beranda (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Label Kecil di Atas Judul", name: "eyebrow", widget: "string" }
+              - { label: "Judul Utama", name: "title", widget: "string" }
+              - { label: "Kata yang Ditonjolkan (Emas)", name: "title_highlight", widget: "string", hint: "Harus sama persis dengan salah satu kata di Judul Utama" }
+              - { label: "Deskripsi Singkat", name: "lead", widget: "text" }
+              - { label: "Foto Latar Belakang Hero", name: "hero_image", widget: "image", required: false, hint: "Foto besar di paling atas halaman. Jika Video diisi, video akan tampil menggantikan foto ini." }
+              - { label: "Video Latar Belakang Hero (opsional)", name: "hero_video", widget: "file", required: false, hint: "Upload video (format mp4, ukuran kecil disarankan). Jika diisi, video akan tampil menggantikan foto latar." }
+              - { label: "Foto di Kartu Sambutan", name: "welcome_image", widget: "image", required: false, hint: "Foto yang muncul di kartu 'Selamat Datang'" }
+              - { label: "Nama pada Foto Sambutan", name: "welcome_photo_name", widget: "string", hint: "Contoh: Ferry M Yusuf, M.Pd" }
+              - { label: "Jabatan pada Foto Sambutan", name: "welcome_photo_role", widget: "string", hint: "Contoh: Founder SunTree Bimbel" }
+              - { label: "Statistik 1 - Angka", name: "stat1_num", widget: "string" }
+              - { label: "Statistik 1 - Label", name: "stat1_label", widget: "string" }
+              - { label: "Statistik 2 - Angka", name: "stat2_num", widget: "string" }
+              - { label: "Statistik 2 - Label", name: "stat2_label", widget: "string" }
+              - { label: "Statistik 3 - Angka", name: "stat3_num", widget: "string" }
+              - { label: "Statistik 3 - Label", name: "stat3_label", widget: "string" }
+          - label: "Tentang Kami"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Label Kecil", name: "eyebrow", widget: "string" }
+              - { label: "Judul", name: "title", widget: "string" }
+              - { label: "Paragraf Deskripsi", name: "text", widget: "text" }
+              - { label: "Badge - Tahun", name: "badge_year", widget: "string" }
+              - { label: "Badge - Teks", name: "badge_text", widget: "string" }
+              - { label: "Poin Keunggulan 1", name: "point1", widget: "string" }
+              - { label: "Poin Keunggulan 2", name: "point2", widget: "string" }
+              - { label: "Poin Keunggulan 3", name: "point3", widget: "string" }
+          - label: "Visi, Misi & Moto"
+            name: "vmm"
+            widget: "object"
+            fields:
+              - { label: "Visi", name: "vision", widget: "text" }
+              - { label: "Misi 1", name: "mission1", widget: "string" }
+              - { label: "Misi 2", name: "mission2", widget: "string" }
+              - { label: "Misi 3", name: "mission3", widget: "string" }
+              - { label: "Moto", name: "motto", widget: "string" }
+          - label: "Kenapa Kami"
+            name: "why"
+            widget: "object"
+            fields:
+              - { label: "Label Kecil", name: "eyebrow", widget: "string" }
+              - { label: "Judul", name: "title", widget: "string" }
+              - { label: "Keunggulan 1 - Judul", name: "item1_title", widget: "string" }
+              - { label: "Keunggulan 1 - Deskripsi", name: "item1_desc", widget: "text" }
+              - { label: "Keunggulan 2 - Judul", name: "item2_title", widget: "string" }
+              - { label: "Keunggulan 2 - Deskripsi", name: "item2_desc", widget: "text" }
+              - { label: "Keunggulan 3 - Judul", name: "item3_title", widget: "string" }
+              - { label: "Keunggulan 3 - Deskripsi", name: "item3_desc", widget: "text" }
+              - { label: "Keunggulan 4 - Judul", name: "item4_title", widget: "string" }
+              - { label: "Keunggulan 4 - Deskripsi", name: "item4_desc", widget: "text" }
+              - { label: "Keunggulan 5 - Judul", name: "item5_title", widget: "string" }
+              - { label: "Keunggulan 5 - Deskripsi", name: "item5_desc", widget: "text" }
+              - { label: "Keunggulan 6 - Judul", name: "item6_title", widget: "string" }
+              - { label: "Keunggulan 6 - Deskripsi", name: "item6_desc", widget: "text" }
+          - label: "Kontak"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Nomor WhatsApp (format 62xxx, tanpa spasi/strip)", name: "whatsapp_number", widget: "string", hint: "Contoh: 6285591176303" }
+              - { label: "Nomor WhatsApp (tampilan)", name: "whatsapp_display", widget: "string", hint: "Contoh: 0855 9117 6303" }
+              - { label: "Alamat", name: "address", widget: "string" }
+              - { label: "Username Instagram (tampilan)", name: "instagram_handle", widget: "string", hint: "Contoh: @sahabatmadani" }
+              - { label: "Link Instagram", name: "instagram_url", widget: "string" }
+
+  - name: "achievements"
+    label: "Prestasi & Review"
+    files:
+      - name: "achievements"
+        label: "Daftar Prestasi & Review"
+        file: "data/achievements.json"
+        fields:
+          - label: "Item"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.type}} — {{fields.title}}"
+            fields:
+              - label: "Jenis"
+                name: "type"
+                widget: "select"
+                options:
+                  - { label: "Prestasi Siswa", value: "prestasi" }
+                  - { label: "Review Orang Tua", value: "review" }
+              - { label: "Judul / Kutipan", name: "title", widget: "string", hint: "Untuk prestasi: nama pencapaian. Untuk review: kutipan singkat." }
+              - { label: "Deskripsi / Isi Lengkap", name: "description", widget: "text" }
+              - { label: "Nama (khusus Review)", name: "name", widget: "string", required: false, hint: "Contoh: Ibu Rina, Wali Murid SD" }
+              - { label: "Foto / Sertifikat (opsional)", name: "image", widget: "image", required: false }
+
+  - name: "faq"
+    label: "FAQ"
+    files:
+      - name: "faq"
+        label: "Daftar Pertanyaan (FAQ)"
+        file: "data/faq.json"
+        fields:
+          - label: "Pertanyaan"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Pertanyaan", name: "question", widget: "string" }
+              - { label: "Jawaban", name: "answer", widget: "text" }
+
+  - name: "tutors"
+    label: "Daftar Tutor"
+    files:
+      - name: "tutors"
+        label: "Daftar Tutor Pengajar"
+        file: "data/tutors.json"
+        fields:
+          - label: "Tutor"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.subject}}"
+            fields:
+              - { label: "Nama Tutor", name: "name", widget: "string" }
+              - { label: "Mata Pelajaran / Spesialisasi", name: "subject", widget: "string" }
+              - { label: "Bio Singkat", name: "bio", widget: "text" }
+              - { label: "Foto (opsional)", name: "image", widget: "image", required: false }

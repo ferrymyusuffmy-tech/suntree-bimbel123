@@ -1,0 +1,68 @@
+{
+  "programs": [
+    {
+      "jenjang": "SD",
+      "title": "Pelajaran Pokok SD",
+      "details": ["Matematika, IPA, IPS, B. Indonesia, B. Inggris, Pancasila", "2x seminggu, @1,5 jam"],
+      "price": "Rp195.000",
+      "price_unit": "/ bulan",
+      "note": ""
+    },
+    {
+      "jenjang": "Usia 5–8 th",
+      "title": "Calistung",
+      "details": ["Belajar membaca, menulis & berhitung", "3x seminggu, 1 jam"],
+      "price": "Rp195.000",
+      "price_unit": "/ bulan",
+      "note": ""
+    },
+    {
+      "jenjang": "SMP",
+      "title": "Pelajaran Pokok SMP",
+      "details": ["Matematika, B. Indonesia, B. Inggris, IPA, IPS, Pancasila", "3x seminggu, @1,5 jam"],
+      "price": "Rp295.000",
+      "price_unit": "/ bulan",
+      "note": ""
+    },
+    {
+      "jenjang": "TK–SMA",
+      "title": "Private (di rumah)",
+      "details": ["Belajar langsung di rumah siswa", "1 guru untuk 1–3 siswa"],
+      "price": "Rp150.000",
+      "price_unit": "/ 1,5 jam",
+      "note": ""
+    },
+    {
+      "jenjang": "TK–SMP",
+      "title": "Program Fokus",
+      "details": ["Pilih 1: Matematika, IPA, atau Bahasa Inggris", "1x seminggu, 1,5 jam"],
+      "price": "Rp95.000",
+      "price_unit": "/ bulan",
+      "note": ""
+    },
+    {
+      "jenjang": "TK–SMP",
+      "title": "Les MTK & IPA",
+      "details": ["Fokus Matematika dan IPA", "2x seminggu, 1,5 jam"],
+      "price": "Rp195.000",
+      "price_unit": "/ bulan",
+      "note": ""
+    },
+    {
+      "jenjang": "SMA",
+      "title": "Persiapan TKA & SNBT",
+      "details": ["2x seminggu, 1,5 jam", "1 guru / 5 peserta"],
+      "price": "Rp350.000",
+      "price_unit": "/ bulan",
+      "note": "+ biaya tambahan"
+    },
+    {
+      "jenjang": "Semua jenjang",
+      "title": "Program Intensif",
+      "details": ["2x seminggu, 1,5 jam", "1 guru / 3 orang"],
+      "price": "Rp300.000",
+      "price_unit": "/ bulan",
+      "note": "+ biaya tambahan"
+    }
+  ]
+}

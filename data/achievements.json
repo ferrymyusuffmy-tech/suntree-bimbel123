@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "type": "prestasi",
+      "title": "Juara 2 Olimpiade Matematika Tingkat Kecamatan",
+      "description": "Diraih oleh salah satu siswa program SD setelah mengikuti bimbingan intensif selama 3 bulan.",
+      "image": ""
+    },
+    {
+      "type": "review",
+      "title": "Anak saya jadi lebih percaya diri mengerjakan PR",
+      "description": "Sejak les di SunTree, nilai ulangan matematika anak saya naik dan dia jadi lebih semangat belajar di rumah.",
+      "name": "Ibu Rina, Wali Murid SD",
+      "image": ""
+    },
+    {
+      "type": "review",
+      "title": "Pengajarnya sabar dan komunikatif ke orang tua",
+      "description": "Selalu ada laporan perkembangan belajar tiap bulan, jadi kami sebagai orang tua tidak buta soal progres anak.",
+      "name": "Bapak Andi, Wali Murid SMP",
+      "image": ""
+    }
+  ]
+}

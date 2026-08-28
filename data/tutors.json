@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "Kak Fitri",
+      "subject": "Matematika & IPA",
+      "bio": "Berpengalaman mengajar Matematika dan IPA untuk jenjang SD-SMP selama beberapa tahun, dengan pendekatan yang sabar dan mudah dipahami siswa.",
+      "image": ""
+    },
+    {
+      "name": "Kak Dimas",
+      "subject": "Bahasa Inggris",
+      "bio": "Fokus mengajar Bahasa Inggris dengan metode interaktif agar siswa lebih percaya diri berbicara dan menulis.",
+      "image": ""
+    },
+    {
+      "name": "Kak Salsa",
+      "subject": "Calistung & SD",
+      "bio": "Berpengalaman mendampingi anak usia dini belajar membaca, menulis, dan berhitung dengan cara yang menyenangkan.",
+      "image": ""
+    }
+  ]
+}
